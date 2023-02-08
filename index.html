@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230208131948">
+    <title>Главная</title>
+</head>
+<body>
+    <header>
+    
+</header>
+    <main>
+        <div class="screen-1">
+            <div class="header-menu">
+                <img src="img/logo.svg" class="header-menu-logo" alt="logo">
+                <picture><source srcset="img/logo-mobile.webp" type="image/webp"><img src="img/logo-mobile.png" class="header-menu-logo-mobile" alt="logo-mobile"></picture>
+                <div class="header-menu-group">
+                    <a href="">À la carte</a>
+                    <a href="">Wijnkaart</a>
+                    <a href="">Lunchmenu</a>
+                    <a href="">Contact</a>
+                </div>
+                <div class="header-menu-contact">
+                    <img src="img/tel-icon.svg" alt="tel-icon">
+                    <a href="">+32 9 282 57 25</a>
+                </div>
+            </div>
+            <div class="screen-1-img">
+                <picture><source srcset="img/img0.webp" type="image/webp"><img src="img/img0.png"  alt=""></picture>
+            </div>
+            <div class="screen-1-main-text">
+                <p>OPEN EVERYDAY 6AM - 9PM</p>
+                <h1>A bad day with lunch is better than  <br> a good day without it.</h1>
+            </div>
+
+            <div class="screen-1-buttons">
+                <button ><a href="#" ><div id="myBtn" >Reserve a table</div></a></button>
+                <div class="screen-1-buttons-socialLinks">
+                    <a href=""><div>Fb</div></a> 
+                    <a href=""><div>Ig</div></a>
+                    <a href=""><div>Tw</div></a>
+                    <a href=""><div>Yt</div></a>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="screen-2">
+            <div class="screen-2-restaurant-menu">
+                <div class="screen-2-days">
+                    <h1>Woensdag 12/01</h1>
+                    <p>Salade met Serrano <span>&#8226 &#8226 &#8226</span> Steak Tartaar</p>
+                </div>
+                <div class="screen-2-days">
+                    <h1>Donderdag 13/01</h1>
+                    <p>Toast Roquefort <span>&#8226 &#8226 &#8226</span> Penne met Kip en Prei</p>
+                </div>
+                <div class="screen-2-days">
+                    <h1>Vrijdag 14/01</h1>
+                    <p>Verrassing van de Chef <span>&#8226 &#8226 &#8226</span> Penne met Kip en Prei</p>
+                </div>
+                <div class="screen-2-days">
+                    <h1>Vrijdag 15/01</h1>
+                    <p>Verrassing van de Chef <span>&#8226 &#8226 &#8226</span> Penne met Kip en Prei</p>
+                </div>
+                <div class="screen-2-days">
+                    <h1>Vrijdag 16/01</h1>
+                    <p>Verrassing van de Chef <span>&#8226 &#8226 &#8226</span> Penne met Kip en Prei</p>
+                </div>
+            </div>
+            <div class="screen-2-photos">
+                <div class="screen-2-rect">
+                    <img src="img/img1.svg" alt="">
+                    <img src="img/img2.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="screen-3">
+            <div class="screen-3-container">
+                <img src="img/desc-icon.svg" alt="">
+
+                <!-- Slider main container -->
+                <swiper-container class="mySwiper" navigation="true">
+                    <swiper-slide>
+                        <h1>Goede service, lekker eten, toffe ambiance</h1>
+                        <p>
+                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor <br> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et <br> justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                        </p>
+                        <h2>ALAIN HEYNDRICKX</h2>
+                    </swiper-slide>
+                    <swiper-slide>Slide 2</swiper-slide>
+                  </swiper-container>
+            </div>
+        </div>
+       
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Reserve a table</h2>
+              </div>
+              <div class="modal-body">
+                <form action="" method="post">
+                    <label for="name">Name</label>
+                    <input name="name" type="text" placeholder="Input your name">
+                    <label for="phone">Your phone number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Input your number">
+                    <label for="meeting-time">Choose date</label>
+                    <input type="datetime-local" id="meeting-time"
+                    name="meeting-time">
+                    <input type="submit" value="Reserve" />
+                </form>
+              </div>
+              
+            </div>
+          
+          </div>
+    </main>
+    <footer></footer>
+    <script src="js/app.min.js?_v=20230208131948"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js?_v=20230208131948"></script>
+</body>
+</html>
